@@ -1,0 +1,211 @@
+Dataset,Cv,Method,Duration (Seconds),Micro F1,Best Pipeline
+AC,1,ASTeC,24545,1.000,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+AC,2,ASTeC,25196,0.926,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.95), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 82), ('score_func', 'f_classif')]), ('LinearSVMClassifier', [('C', 10.0)])]"
+AC,3,ASTeC,24393,0.987,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+AC,4,ASTeC,24887,0.951,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+AC,5,ASTeC,25255,0.975,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+AC,6,ASTeC,23722,0.981,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+AC,7,ASTeC,23903,0.932,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 93), ('score_func', 'chi2')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+AC,8,ASTeC,28264,0.962,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+AC,9,ASTeC,27603,0.950,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+AC,10,ASTeC,28820,0.956,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 5), ('score_func', 'chi2')]), ('AdamMLPClassifier', [('activation', 'logistic'), ('alpha', 1e-05), ('learning_rate', 'invscaling')])]"
+AT,1,ASTeC,134869,0.806,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+AT,2,ASTeC,142914,0.839,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+AT,3,ASTeC,147440,0.862,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LbfgsMLPClassifier', [('activation', 'identity'), ('alpha', 10.0)])]"
+AT,4,ASTeC,44118,0.804,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', -1.0), ('gamma', 1.0)])]"
+AT,5,ASTeC,143358,0.868,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.9), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 95), ('score_func', 'f_classif')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+AT,6,ASTeC,72053,0.816,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', True), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 10.0)])]"
+AT,7,ASTeC,80993,0.805,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', -1.0), ('gamma', 0.1)])]"
+AT,8,ASTeC,82717,0.885,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 94), ('score_func', 'f_classif')]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', -1.0), ('gamma', 0.1)])]"
+AT,9,ASTeC,86473,0.901,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+AT,10,ASTeC,65641,0.855,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LbfgsMLPClassifier', [('activation', 'identity'), ('alpha', 10.0)])]"
+FMN,1,ASTeC,140502,0.702,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+FMN,2,ASTeC,130902,0.658,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.8), ('min_df', 0.0135), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 1.0)])]"
+FMN,3,ASTeC,141826,0.691,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+FMN,4,ASTeC,116222,0.699,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+FMN,5,ASTeC,90795,0.690,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 1.0)])]"
+FMN,6,ASTeC,108531,0.732,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+FMN,7,ASTeC,82319,0.718,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+FMN,8,ASTeC,158602,0.723,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.7), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LbfgsMLPClassifier', [('activation', 'identity'), ('alpha', 1.0)])]"
+FMN,9,ASTeC,137326,0.688,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+FMN,10,ASTeC,123365,0.721,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('NlpnetPOSTagger', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 97), ('score_func', 'mutual_info_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+PMGT,1,ASTeC,43464,0.610,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,2,ASTeC,50717,0.866,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,3,ASTeC,49400,0.862,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.8), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LinearSVMClassifier', [('C', 1.0)])]"
+PMGT,4,ASTeC,52701,0.989,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', -1.0), ('gamma', 1.0)])]"
+PMGT,5,ASTeC,47339,0.881,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,6,ASTeC,52246,0.940,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,7,ASTeC,49905,0.913,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,8,ASTeC,42329,0.923,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,9,ASTeC,47493,0.979,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+PMGT,10,ASTeC,68132,0.946,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+TP,1,ASTeC,14917,0.632,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.7), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+TP,2,ASTeC,15753,0.683,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.95), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LbfgsMLPClassifier', [('activation', 'relu'), ('alpha', 1e-05)])]"
+TP,3,ASTeC,14068,0.721,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+TP,4,ASTeC,16062,0.679,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LinearSVMClassifier', [('C', 100.0)])]"
+TP,5,ASTeC,13813,0.649,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.95), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+TP,6,ASTeC,14620,0.688,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 96), ('score_func', 'chi2')]), ('AdamMLPClassifier', [('activation', 'relu'), ('alpha', 1e-05), ('learning_rate', 'adaptive')])]"
+TP,7,ASTeC,14891,0.727,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', False), ('sublinear_tf', True)]), ('LbfgsMLPClassifier', [('activation', 'identity'), ('alpha', 1e-05)])]"
+TP,8,ASTeC,14449,0.631,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 97), ('score_func', 'chi2')]), ('LinearSVMClassifier', [('C', 100.0)])]"
+TP,9,ASTeC,12768,0.710,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.65), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LbfgsMLPClassifier', [('activation', 'identity'), ('alpha', 1e-05)])]"
+TP,10,ASTeC,16899,0.578,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.8), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', True), ('sublinear_tf', False)]), ('LbfgsMLPClassifier', [('activation', 'relu'), ('alpha', 1e-05)])]"
+TRT,1,ASTeC,43916,0.866,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 61), ('score_func', 'f_classif')]), ('AdamMLPClassifier', [('activation', 'relu'), ('alpha', 1.0), ('learning_rate', 'adaptive')])]"
+TRT,2,ASTeC,59525,0.924,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('LbfgsMLPClassifier', [('activation', 'relu'), ('alpha', 10.0)])]"
+TRT,3,ASTeC,47572,0.913,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('LbfgsMLPClassifier', [('activation', 'tanh'), ('alpha', 10.0)])]"
+TRT,4,ASTeC,38138,0.883,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 45), ('score_func', 'f_classif')]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', -1.0), ('gamma', 0.1)])]"
+TRT,5,ASTeC,43992,0.949,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.7), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+TRT,6,ASTeC,46583,0.962,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NlpnetPOSTagger', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.7), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 69), ('score_func', 'chi2')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+TRT,7,ASTeC,47005,0.969,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('LinearSVMClassifier', [('C', 10.0)])]"
+TRT,8,ASTeC,44503,0.951,"[('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('NlpnetPOSTagger', []), ('SimpleTermLowerCase', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', -0.19999999999999996), ('gamma', 0.01)])]"
+TRT,9,ASTeC,39282,0.954,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', 0.6000000000000001), ('gamma', 0.1)])]"
+TRT,10,ASTeC,40194,0.964,"[('SimpleLowerCase', []), ('SimpleStringTokenizer', []), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('SigmoidSVMClassifier', [('C', 1.0), ('coef0', -0.6), ('gamma', 1.0)])]"
+TSBR,1,ASTeC,16954,0.732,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.75), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 5), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 0.01)])]"
+TSBR,2,ASTeC,16109,0.676,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0015), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 92), ('score_func', 'chi2')]), ('SigmoidSVMClassifier', [('C', 1.0), ('coef0', -1.0), ('gamma', 1.0)])]"
+TSBR,3,ASTeC,17934,0.669,"[('SimpleLowerCase', []), ('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.85), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 1.0)])]"
+TSBR,4,ASTeC,17046,0.767,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l1'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 98), ('score_func', 'f_classif')]), ('RbfSVMClassifier', [('C', 100.0), ('gamma', 1.0)])]"
+TSBR,5,ASTeC,17497,0.683,"[('TweetStringTokenizer', [('reduce_len', True), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('AdamMLPClassifier', [('activation', 'relu'), ('alpha', 1e-05), ('learning_rate', 'adaptive')])]"
+TSBR,6,ASTeC,20197,0.751,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('AdamMLPClassifier', [('activation', 'identity'), ('alpha', 1e-05), ('learning_rate', 'adaptive')])]"
+TSBR,7,ASTeC,19093,0.588,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 5), ('score_func', 'chi2')]), ('AdamMLPClassifier', [('activation', 'logistic'), ('alpha', 1e-05), ('learning_rate', 'constant')])]"
+TSBR,8,ASTeC,19633,0.685,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', False)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'chi2')]), ('AdamMLPClassifier', [('activation', 'relu'), ('alpha', 1e-05), ('learning_rate', 'adaptive')])]"
+TSBR,9,ASTeC,20290,0.489,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', False)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 2)]), ('TokenTfidfVectorizer', [('max_df', 1.0), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', False), ('sublinear_tf', True)]), ('CustomSelectPercentile', [('percentile', 100), ('score_func', 'f_classif')]), ('AdamMLPClassifier', [('activation', 'logistic'), ('alpha', 1e-05), ('learning_rate', 'constant')])]"
+TSBR,10,ASTeC,20598,0.453,"[('TweetStringTokenizer', [('reduce_len', False), ('strip_handles', True)]), ('SimpleTermsListToTuplesList', []), ('CustomRSLPStemmer', []), ('SimpleTermLowerCase', []), ('NGramGrouper', [('max_len', 1)]), ('TokenTfidfVectorizer', [('max_df', 0.6), ('min_df', 0.0), ('norm', 'l2'), ('smooth_idf', True), ('sublinear_tf', True)]), ('SigmoidSVMClassifier', [('C', 100.0), ('coef0', 0.40000000000000013), ('gamma', 0.01)])]"
+AC,1,Google,19680,0.963,-
+AC,2,Google,12300,0.982,-
+AC,3,Google,13200,0.976,-
+AC,4,Google,12120,0.976,-
+AC,5,Google,13140,0.994,-
+AC,6,Google,13320,0.994,-
+AC,7,Google,12300,0.957,-
+AC,8,Google,12060,0.975,-
+AC,9,Google,12540,0.988,-
+AC,10,Google,13800,0.988,-
+AT,1,Google,15600,0.799,-
+AT,2,Google,13740,0.836,-
+AT,3,Google,13740,0.853,-
+AT,4,Google,13680,0.804,-
+AT,5,Google,13680,0.825,-
+AT,6,Google,13620,0.793,-
+AT,7,Google,13260,0.793,-
+AT,8,Google,13080,0.835,-
+AT,9,Google,13080,0.792,-
+AT,10,Google,13080,0.843,-
+FMN,1,Google,19320,0.581,-
+FMN,2,Google,13140,0.626,-
+FMN,3,Google,12420,0.631,-
+FMN,4,Google,13080,0.629,-
+FMN,5,Google,13320,0.638,-
+FMN,6,Google,13320,0.657,-
+FMN,7,Google,13260,0.648,-
+FMN,8,Google,13200,0.681,-
+FMN,9,Google,14040,0.660,-
+FMN,10,Google,14100,0.821,-
+PMGT,1,Google,15780,0.560,-
+PMGT,2,Google,13680,0.840,-
+PMGT,3,Google,13560,0.905,-
+PMGT,4,Google,13860,0.977,-
+PMGT,5,Google,13200,0.951,-
+PMGT,6,Google,13560,0.959,-
+PMGT,7,Google,14220,0.863,-
+PMGT,8,Google,12600,0.932,-
+PMGT,9,Google,12480,0.983,-
+PMGT,10,Google,12360,0.934,-
+TP,1,Google,16200,0.620,-
+TP,2,Google,12360,0.734,-
+TP,3,Google,12300,0.759,-
+TP,4,Google,17880,0.692,-
+TP,5,Google,12960,0.623,-
+TP,6,Google,12180,0.688,-
+TP,7,Google,12420,0.792,-
+TP,8,Google,12720,0.605,-
+TP,9,Google,12720,0.697,-
+TP,10,Google,12600,0.711,-
+TRT,1,Google,16500,0.892,-
+TRT,2,Google,12600,0.922,-
+TRT,3,Google,12960,0.889,-
+TRT,4,Google,12720,0.886,-
+TRT,5,Google,12900,0.947,-
+TRT,6,Google,13140,0.922,-
+TRT,7,Google,13200,0.954,-
+TRT,8,Google,13200,0.926,-
+TRT,9,Google,13080,0.931,-
+TRT,10,Google,13140,0.957,-
+TSBR,1,Google,18960,0.754,-
+TSBR,2,Google,14100,0.662,-
+TSBR,3,Google,13980,0.711,-
+TSBR,4,Google,13560,0.676,-
+TSBR,5,Google,12780,0.662,-
+TSBR,6,Google,12540,0.780,-
+TSBR,7,Google,12840,0.660,-
+TSBR,8,Google,12360,0.643,-
+TSBR,9,Google,12540,0.561,-
+TSBR,10,Google,12720,0.496,-
+AC,1,TPOT,25659,0.939,-
+AC,2,TPOT,25659,0.896,-
+AC,3,TPOT,25659,0.939,-
+AC,4,TPOT,25659,0.896,-
+AC,5,TPOT,25659,0.915,-
+AC,6,TPOT,25659,0.926,-
+AC,7,TPOT,25659,0.907,-
+AC,8,TPOT,25659,0.920,-
+AC,9,TPOT,25659,0.895,-
+AC,10,TPOT,25659,0.932,-
+AT,1,TPOT,100058,0.722,-
+AT,2,TPOT,100058,0.773,-
+AT,3,TPOT,100058,0.804,-
+AT,4,TPOT,100058,0.750,-
+AT,5,TPOT,100058,0.802,-
+AT,6,TPOT,100058,0.786,-
+AT,7,TPOT,100058,0.764,-
+AT,8,TPOT,100058,0.794,-
+AT,9,TPOT,100058,0.824,-
+AT,10,TPOT,100058,0.816,-
+FMN,1,TPOT,123039,0.684,-
+FMN,2,TPOT,123039,0.668,-
+FMN,3,TPOT,123039,0.682,-
+FMN,4,TPOT,123039,0.709,-
+FMN,5,TPOT,123039,0.657,-
+FMN,6,TPOT,123039,0.728,-
+FMN,7,TPOT,123039,0.704,-
+FMN,8,TPOT,123039,0.732,-
+FMN,9,TPOT,123039,0.726,-
+FMN,10,TPOT,123039,0.722,-
+PMGT,1,TPOT,50373,0.581,-
+PMGT,2,TPOT,50373,0.676,-
+PMGT,3,TPOT,50373,0.907,-
+PMGT,4,TPOT,50373,0.967,-
+PMGT,5,TPOT,50373,0.945,-
+PMGT,6,TPOT,50373,0.954,-
+PMGT,7,TPOT,50373,0.912,-
+PMGT,8,TPOT,50373,0.883,-
+PMGT,9,TPOT,50373,0.803,-
+PMGT,10,TPOT,50373,0.939,-
+TP,1,TPOT,14824,0.595,-
+TP,2,TPOT,14824,0.608,-
+TP,3,TPOT,14824,0.646,-
+TP,4,TPOT,14824,0.679,-
+TP,5,TPOT,14824,0.610,-
+TP,6,TPOT,14824,0.701,-
+TP,7,TPOT,14824,0.662,-
+TP,8,TPOT,14824,0.618,-
+TP,9,TPOT,14824,0.618,-
+TP,10,TPOT,14824,0.539,-
+TRT,1,TPOT,45071,0.869,-
+TRT,2,TPOT,45071,0.917,-
+TRT,3,TPOT,45071,0.896,-
+TRT,4,TPOT,45071,0.873,-
+TRT,5,TPOT,45071,0.924,-
+TRT,6,TPOT,45071,0.947,-
+TRT,7,TPOT,45071,0.965,-
+TRT,8,TPOT,45071,0.937,-
+TRT,9,TPOT,45071,0.939,-
+TRT,10,TPOT,45071,0.957,-
+TSBR,1,TPOT,18535,0.599,-
+TSBR,2,TPOT,18535,0.634,-
+TSBR,3,TPOT,18535,0.613,-
+TSBR,4,TPOT,18535,0.634,-
+TSBR,5,TPOT,18535,0.592,-
+TSBR,6,TPOT,18535,0.596,-
+TSBR,7,TPOT,18535,0.596,-
+TSBR,8,TPOT,18535,0.579,-
+TSBR,9,TPOT,18535,0.518,-
+TSBR,10,TPOT,18535,0.460,-
