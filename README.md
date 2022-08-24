@@ -14,15 +14,12 @@ Check the [detailed-results.csv](detailed-results.csv) for the detailed results.
 ## Citing us
 
 ```
-@INPROCEEDINGS{224390,
-    AUTHOR="Douglas Nunes de Oliveira and Luiz Henrique de Campos Merschmann",
-    TITLE="An Auto-ML Approach Applied to Text Classification",
-    BOOKTITLE="WebMedia 2022 () ",
-    ADDRESS="",
-    DAYS="7-11",
-    MONTH="nov",
-    YEAR="2022",
-    KEYWORDS="AI, Machine Learning and Deep Learning; Data Mining; Natural Language Processing",
-    URL="http://XXXXX/224390.pdf"
+@inproceedings{224390,
+  author    = {Douglas Nunes de Oliveira and Luiz Henrique de Campos Merschmann},
+  title     = {An Auto-ML Approach Applied to Text Classification},
+  booktitle = {WebMedia '22: Brazilian Symposium on Multimedia and the Web, Curitiba, Paran{\'{\a}}, Brazil, November 7-11, 2022},
+  publisher = {{ACM}},
+  year      = {2022},
+  doi       = {10.1145/3539637.3557054}
 }
 ```
