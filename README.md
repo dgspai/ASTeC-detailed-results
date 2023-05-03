@@ -2,6 +2,10 @@
 
 Check the [detailed-results.csv](detailed-results.csv) for the detailed results.
 
+The following diagram shows the experiment pipeline for the Intent Recognition study
+![pipe_experiments](https://user-images.githubusercontent.com/51092246/235915299-d490bb1d-0778-4798-95db-e419acd30fd3.png)
+
+
 ## Columns definitions
 
 - Dataset: Dataset used
